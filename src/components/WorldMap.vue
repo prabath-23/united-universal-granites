@@ -8,7 +8,7 @@ const tooltip = ref({ show: false, x: 0, y: 0, name: '', label: '' })
 const byId = new Map(exportCountries.map((c) => [c.id, c]))
 
 async function loadMap() {
-  const res = await fetch('/images/world-map.svg')
+  const res = await fetch(`${import.meta.env.BASE_URL}images/world-map.svg`)
   const svgText = await res.text()
   if (!mapHost.value) return
   mapHost.value.innerHTML = svgText

@@ -1,0 +1,9 @@
+<svg width="600" height="200" viewBox="0 0 600 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="200" fill="#1a1a19"/>
+  <g transform="translate(40,40)">
+    <rect x="8.5" y="8.5" width="103" height="103" transform="rotate(45 60 60)" stroke="#c9a24b" stroke-width="1.6"/>
+    <path d="M40 38v28.5c0 10 7 15.4 20 15.4s20-5.4 20-15.4V38" stroke="#c9a24b" stroke-width="4.5" stroke-linecap="square"/>
+  </g>
+  <text x="180" y="95" font-family="Georgia, serif" font-size="34" fill="#f5f2ec" letter-spacing="2">UNITED UNIVERSAL</text>
+  <text x="180" y="140" font-family="Georgia, serif" font-size="34" fill="#c9a24b" letter-spacing="6">GRANITES</text>
+</svg>

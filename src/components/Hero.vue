@@ -2,7 +2,7 @@
 // Stock photography stand-in (a real polished Black Galaxy granite slab, sourced
 // from Wikimedia Commons — not UUG's own facility) until the client supplies
 // studio macro photography of a polished granite surface.
-const heroImage = '/images/photo-hero.jpg'
+const heroImage = `${import.meta.env.BASE_URL}images/photo-hero.jpg`
 
 function go(id) {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
